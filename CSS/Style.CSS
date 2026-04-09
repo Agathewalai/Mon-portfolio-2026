@@ -489,3 +489,65 @@ footer {
 .btn:hover {
     opacity: 0.8;
 }
+
+.passions-container {
+    padding: 60px 20px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.intro h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    color: #555;
+}
+
+.passions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.passion-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.passion-card i {
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.passion-card h3 {
+    margin-bottom: 10px;
+}
+
+.passion-card p {
+    color: #555;
+    line-height: 1.5;
+}
+
+.passion-card:hover {
+    transform: translateY(-5px);
+}
+
+.vision {
+    margin-top: 50px;
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(135deg, #000, #333);
+    color: white;
+    border-radius: 15px;
+    font-style: italic;
+}
