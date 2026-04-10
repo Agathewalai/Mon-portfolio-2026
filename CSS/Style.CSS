@@ -409,7 +409,7 @@ footer {
 }
 
 .contact-info {
-    background: linear-gradient(135deg, #000, #333);
+    background: linear-gradient(135deg, #B76A73, #d98c95);
     color: white;
 }
 
@@ -446,14 +446,14 @@ footer {
 }
 
 .contact-form input:focus {
-    border-color: black;
+    border-color: #B76A73;
 }
 
 .contact-form button {
     padding: 12px;
     border: none;
     border-radius: 8px;
-    background: black;
+    background: #B76A73;
     color: white;
     font-weight: bold;
     cursor: pointer;
@@ -461,7 +461,7 @@ footer {
 }
 
 .contact-form button:hover {
-    background: #444;
+    background: #9f5a63;
 }
 .contact-buttons {
     display: flex;
@@ -550,4 +550,99 @@ footer {
     color: white;
     border-radius: 15px;
     font-style: italic;
+}
+
+.passion-card:nth-child(1) i {
+    color: #007bff;
+}
+
+.passion-card:nth-child(2) i {
+    color: #ff9800;
+}
+
+.passion-card:nth-child(3) i {
+    color: #e91e63;
+}
+
+.passion-card:nth-child(4) i {
+    color: #4caf50;
+}
+
+
+.vision {
+    margin-top: 60px;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #007bff, #00c6ff);
+    color: white;
+    font-style: italic;
+    font-size: 18px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+.passion-card:hover {
+    transform: translateY(-8px) scale(1.02);
+}
+.divertissement-container {
+    padding: 60px 20px;
+}
+
+.divertissement-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.div-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.div-card i {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.div-card h3 {
+    margin-bottom: 10px;
+}
+
+.div-card p {
+    color: #555;
+    line-height: 1.5;
+}
+
+.div-card:hover {
+    transform: translateY(-8px) scale(1.02);
+}
+
+.div-card:nth-child(1) i { color: #e91e63; }
+.div-card:nth-child(2) i { color: #3f51b5; }
+.div-card:nth-child(3) i { color: #ff9800; }
+.div-card:nth-child(4) i { color: #4caf50; }
+.div-card:nth-child(5) i { color: #00bcd4; }
+
+
+.fun-quote {
+    margin-top: 60px;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: white;
+    font-style: italic;
+    font-size: 18px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.div-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
 }
